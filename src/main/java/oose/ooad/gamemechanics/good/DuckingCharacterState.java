@@ -1,6 +1,6 @@
 package oose.ooad.gamemechanics.good;
 
-public class DuckingCharacterState implements ICharacterState {
+public class DuckingCharacterState implements CharacterState {
     private Character character;
 
     public DuckingCharacterState(Character character) {

@@ -2,7 +2,7 @@ package oose.ooad.gamemechanics.good;
 
 
 public class Character {
-    private ICharacterState state;
+    private CharacterState state;
 
     public Character() {
         state = new GroundedCharacterState(this);
@@ -16,7 +16,7 @@ public class Character {
         state.HandleInput(input);
     }
 
-    public void setState(ICharacterState state) {
+    public void setState(CharacterState state) {
         this.state = state;
     }
 

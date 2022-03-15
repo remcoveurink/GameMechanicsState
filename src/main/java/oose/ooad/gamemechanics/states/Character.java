@@ -1,7 +1,7 @@
 package oose.ooad.gamemechanics.states;
 
 public class Character {
-    private CharacterState state;
+    private CharacterState state = CharacterState.GROUNDED;
 
     public void Update() {
         // Update the player depending on the private fields

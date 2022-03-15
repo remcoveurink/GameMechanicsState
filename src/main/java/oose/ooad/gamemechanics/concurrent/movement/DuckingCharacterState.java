@@ -1,10 +1,10 @@
 package oose.ooad.gamemechanics.concurrent.movement;
 
 import oose.ooad.gamemechanics.concurrent.Character;
-import oose.ooad.gamemechanics.concurrent.ICharacterState;
+import oose.ooad.gamemechanics.concurrent.CharacterState;
 import oose.ooad.gamemechanics.concurrent.Input;
 
-public class DuckingCharacterState implements ICharacterState {
+public class DuckingCharacterState implements CharacterState {
     private Character character;
 
     public DuckingCharacterState(Character character) {

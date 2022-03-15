@@ -1,10 +1,10 @@
 package oose.ooad.gamemechanics.concurrent.gun;
 
 import oose.ooad.gamemechanics.concurrent.Character;
-import oose.ooad.gamemechanics.concurrent.ICharacterState;
+import oose.ooad.gamemechanics.concurrent.CharacterState;
 import oose.ooad.gamemechanics.concurrent.Input;
 
-public class GrenadeLauncherCharacterState implements ICharacterState {
+public class GrenadeLauncherCharacterState implements CharacterState {
     private Character character;
 
     public GrenadeLauncherCharacterState(Character character) {

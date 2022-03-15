@@ -1,6 +1,6 @@
 package oose.ooad.gamemechanics.good;
 
-public class GroundedCharacterState implements ICharacterState {
+public class GroundedCharacterState implements CharacterState {
     private Character character;
 
     public GroundedCharacterState(Character character) {

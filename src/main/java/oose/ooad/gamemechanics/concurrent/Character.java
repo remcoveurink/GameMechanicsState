@@ -5,8 +5,8 @@ import oose.ooad.gamemechanics.concurrent.gun.UnarmedCharacterState;
 import oose.ooad.gamemechanics.concurrent.movement.GroundedCharacterState;
 
 public class Character {
-    private ICharacterState movementState;
-    private ICharacterState gunState;
+    private CharacterState movementState;
+    private CharacterState gunState;
 
     public Character() {
         this.movementState = new GroundedCharacterState(this);
@@ -23,11 +23,11 @@ public class Character {
         gunState.HandleInput(input);
     }
 
-    public void setMovementState(ICharacterState state) {
+    public void setMovementState(CharacterState state) {
         this.movementState = state;
     }
 
-    public void setGunState(ICharacterState state) {
+    public void setGunState(CharacterState state) {
         this.gunState = state;
     }
 

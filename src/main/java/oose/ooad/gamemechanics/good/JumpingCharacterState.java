@@ -1,6 +1,6 @@
 package oose.ooad.gamemechanics.good;
 
-public class JumpingCharacterState implements ICharacterState {
+public class JumpingCharacterState implements CharacterState {
     private Character character;
 
     public JumpingCharacterState(Character character) {
